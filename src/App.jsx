@@ -1,12 +1,14 @@
 import { useState } from 'react'
+import Counter from './features/Counter/Counter'
 
 function App() {
 
 
   return (
-    <>
-      <h1>Redux</h1>
-    </>
+    <main>
+      <h1>Counter app using Redux</h1>
+      <Counter />
+    </main>
   )
 }
 
